@@ -1,0 +1,16 @@
+<div [ngClass]="{'list-group-item': true,
+                'list-group-item-success': loveIts > unlike,
+                'list-group-item-danger': loveIts < unlike}">
+  <div class="header">
+    <div class="title"><h1>{{title}}</h1></div>
+    <div class="date"><h4>{{date | date}}</h4></div>
+  </div>
+
+  <div class="content">{{content}}</div>
+  <div>
+    <button type="button" class="button btn btn-success" (click)="addLike()"> Love It ! </button>
+    <button type="button" class="button btn btn-danger" (click)="addUnlike()"> Don't Love It ! </button>
+  </div>
+</div>
+
+

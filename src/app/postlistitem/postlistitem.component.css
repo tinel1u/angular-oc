@@ -1,0 +1,13 @@
+.button {
+    margin: 10px;
+}
+
+.title {
+    display: inline-block;
+}
+
+.date {
+    display: inline-block;
+    margin-left: 1400px;
+    color: #aba6a2;
+}
